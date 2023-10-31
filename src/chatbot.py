@@ -28,9 +28,11 @@ def get_account() -> int:
             print("Account number must be a whole number.")
 
 
+
 """
 get_amount function will prompt user for the transaction amount and validate it
 """
+
 def get_amount() -> float:
     while True:
         try:
