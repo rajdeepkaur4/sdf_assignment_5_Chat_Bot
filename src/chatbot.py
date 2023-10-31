@@ -47,11 +47,13 @@ def get_amount() -> float:
 """
 get_balance function will fetch balance of a valid account number
 """
+
 def get_balance(account: int) -> str:
     if account not in ACCOUNTS:
         raise Exception("Account number does not exist.")
     balance = ACCOUNTS[account]["balance"]
     return f'Your current balance for account {account} is ${balance:.2f}.'
+
 
 
 """
