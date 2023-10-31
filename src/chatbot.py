@@ -70,6 +70,7 @@ def make_deposit(account: int, amount: float) -> str:
 """
 user_Selection will ask user for operation to perform
 """
+
 def user_selection() -> str:
     while True:
         selection = input("What would you like to do (balance/deposit/exit)? ").strip().lower()
@@ -77,6 +78,7 @@ def user_selection() -> str:
             return selection
         else:
             print("Invalid task. Please choose balance, deposit, or exit.")
+
 
 def chatbot():
     print("Welcome! I'm the PiXELL River Financial Chatbot! Let's get chatting!")
