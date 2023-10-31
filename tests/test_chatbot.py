@@ -2,10 +2,10 @@
 Author : Rajdeep Kaur
 """
 
-
 import unittest
 from unittest.mock import patch
 from src.chatbot import get_account, get_amount, get_balance, make_deposit, user_selection, ACCOUNTS  
+
 
 
 class ChatbotTests(unittest.TestCase):

@@ -2,12 +2,12 @@
 Author: Rajdeep Kaur
 '''
 
-
 # Mock account data
 ACCOUNTS = {
     123456: {"balance": 1000.0},
     789012: {"balance": 2000.0}
 }
+
 
 VALID_TASKS = ["balance", "deposit", "exit"]
 
